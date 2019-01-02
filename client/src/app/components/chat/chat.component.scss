@@ -1,0 +1,6 @@
+.chat {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 200px calc(100vh - 280px) 80px;
+  background-color: #d7dfe6;
+}

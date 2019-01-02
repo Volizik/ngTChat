@@ -1,0 +1,10 @@
+<aside class="sidebar">
+    <div class="sidebar-tabs">
+        <button class="sidebar-tab"
+                *ngFor="let tab of tabs"
+                [ngClass]="{active: selectedTab === tab}"
+                (click)="tabClickHandler(tab)"
+        >{{ tab.name }}</button>
+    </div>
+    <app-users-list></app-users-list>
+</aside>
